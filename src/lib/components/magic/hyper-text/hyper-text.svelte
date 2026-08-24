@@ -1,11 +1,11 @@
 <script lang="ts">
-	import { onMount } from "svelte";
-	import { motion, AnimatePresence } from "motion-sv";
-	import { cn } from "$lib/utils";
+	import { onMount } from 'svelte';
+	import { motion, AnimatePresence } from 'motion-sv';
+	import { cn } from '$lib/utils';
 
 	type CharacterSet = string[] | readonly string[];
 
-	type ElementType = "div" | "span" | "p" | "h1" | "h2" | "h3" | "h4" | "h5" | "h6";
+	type ElementType = 'div' | 'span' | 'p' | 'h1' | 'h2' | 'h3' | 'h4' | 'h5' | 'h6';
 
 	interface HyperTextProps {
 		text: string;
@@ -23,10 +23,10 @@
 		class: className,
 		duration = 800,
 		delay = 0,
-		as = "div",
+		as = 'div',
 		startOnView = false,
 		animateOnHover = true,
-		characterSet = Object.freeze("ABCDEFGHIJKLMNOPQRSTUVWXYZ".split("")) as readonly string[],
+		characterSet = Object.freeze('ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('')) as readonly string[]
 	}: HyperTextProps = $props();
 
 	let MotionComponent = $derived(motion[as]);
@@ -38,7 +38,7 @@
 
 	// Initialize displayText when text changes
 	$effect(() => {
-		displayText = text.split("");
+		displayText = text.split('');
 	});
 
 	const getRandomInt = (max: number): number => Math.floor(Math.random() * max);
@@ -68,7 +68,7 @@
 					observer.disconnect();
 				}
 			},
-			{ threshold: 0.1, rootMargin: "-30% 0px -30% 0px" }
+			{ threshold: 0.1, rootMargin: '-30% 0px -30% 0px' }
 		);
 
 		if (elementRef) {
@@ -93,7 +93,7 @@
 			iterationCount = progress * maxIterations;
 
 			displayText = displayText.map((letter, index) =>
-				letter === " "
+				letter === ' '
 					? letter
 					: index <= iterationCount
 						? text[index]
@@ -115,12 +115,12 @@
 
 <MotionComponent
 	bind:this={elementRef}
-	class={cn("overflow-hidden py-2 text-4xl font-medium", className)}
+	class={cn('overflow-hidden py-2 text-4xl font-medium', className)}
 	onmouseenter={handleAnimationTrigger}
 >
 	<AnimatePresence>
 		{#each displayText as letter, index (index)}
-			<motion.span class={cn("font-mono", letter === " " ? "w-3" : "")}>
+			<motion.span class={cn('font-mono', letter === ' ' ? 'w-3' : '')}>
 				{letter.toUpperCase()}
 			</motion.span>
 		{/each}

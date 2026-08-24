@@ -1,7 +1,9 @@
 @import 'tailwindcss';
-@import "tw-animate-css";
-@import "shadcn-svelte/tailwind.css";
-@import "@fontsource-variable/dm-sans";
+@import 'tw-animate-css';
+@import 'shadcn-svelte/tailwind.css';
+@import '@fontsource-variable/dm-sans';
+@import '@fontsource-variable/fraunces';
+@import '@fontsource-variable/jetbrains-mono';
 
 @custom-variant dark (&:is(.dark *));
 @plugin '@tailwindcss/forms';
@@ -43,41 +45,45 @@
 }
 
 .dark {
-	--background: oklch(0.153 0.006 107.1);
-	--foreground: oklch(0.988 0.003 106.5);
-	--card: oklch(0.228 0.013 107.4);
-	--card-foreground: oklch(0.988 0.003 106.5);
-	--popover: oklch(0.228 0.013 107.4);
-	--popover-foreground: oklch(0.988 0.003 106.5);
-	--primary: oklch(0.443 0.11 240.79);
-	--primary-foreground: oklch(0.977 0.013 236.62);
-	--secondary: oklch(0.274 0.006 286.033);
-	--secondary-foreground: oklch(0.985 0 0);
-	--muted: oklch(0.286 0.016 107.4);
-	--muted-foreground: oklch(0.737 0.021 106.9);
-	--accent: oklch(0.286 0.016 107.4);
-	--accent-foreground: oklch(0.988 0.003 106.5);
-	--destructive: oklch(0.704 0.191 22.216);
-	--border: oklch(1 0 0 / 10%);
-	--input: oklch(1 0 0 / 15%);
-	--ring: oklch(0.58 0.031 107.3);
-	--chart-1: oklch(0.905 0.182 98.111);
-	--chart-2: oklch(0.795 0.184 86.047);
-	--chart-3: oklch(0.681 0.162 75.834);
-	--chart-4: oklch(0.554 0.135 66.442);
-	--chart-5: oklch(0.476 0.114 61.907);
-	--sidebar: oklch(0.228 0.013 107.4);
-	--sidebar-foreground: oklch(0.988 0.003 106.5);
-	--sidebar-primary: oklch(0.685 0.169 237.323);
-	--sidebar-primary-foreground: oklch(0.293 0.066 243.157);
-	--sidebar-accent: oklch(0.286 0.016 107.4);
-	--sidebar-accent-foreground: oklch(0.988 0.003 106.5);
-	--sidebar-border: oklch(1 0 0 / 10%);
-	--sidebar-ring: oklch(0.58 0.031 107.3);
+	/* Signal & Ink — deep warm ink surfaces, signal-amber accent */
+	--background: oklch(0.165 0.01 95);
+	--foreground: oklch(0.955 0.012 95);
+	--card: oklch(0.2 0.012 95);
+	--card-foreground: oklch(0.955 0.012 95);
+	--popover: oklch(0.21 0.012 95);
+	--popover-foreground: oklch(0.955 0.012 95);
+	--primary: oklch(0.835 0.155 84);
+	--primary-foreground: oklch(0.22 0.05 80);
+	--secondary: oklch(0.26 0.014 95);
+	--secondary-foreground: oklch(0.94 0.01 95);
+	--muted: oklch(0.245 0.012 95);
+	--muted-foreground: oklch(0.71 0.018 95);
+	--accent: oklch(0.26 0.014 95);
+	--accent-foreground: oklch(0.94 0.01 95);
+	--destructive: oklch(0.65 0.19 25);
+	--border: oklch(0.3 0.014 95 / 70%);
+	--input: oklch(0.32 0.014 95 / 80%);
+	--ring: oklch(0.835 0.155 84 / 60%);
+	--chart-1: oklch(0.835 0.155 84);
+	--chart-2: oklch(0.85 0.12 195);
+	--chart-3: oklch(0.75 0.14 145);
+	--chart-4: oklch(0.7 0.15 60);
+	--chart-5: oklch(0.6 0.12 40);
+	--sidebar: oklch(0.2 0.012 95);
+	--sidebar-foreground: oklch(0.955 0.012 95);
+	--sidebar-primary: oklch(0.835 0.155 84);
+	--sidebar-primary-foreground: oklch(0.22 0.05 80);
+	--sidebar-accent: oklch(0.26 0.014 95);
+	--sidebar-accent-foreground: oklch(0.94 0.01 95);
+	--sidebar-border: oklch(0.3 0.014 95 / 70%);
+	--sidebar-ring: oklch(0.835 0.155 84 / 60%);
 }
 
 @theme inline {
 	--font-sans: 'DM Sans Variable', sans-serif;
+	--font-display: 'Fraunces Variable', Georgia, serif;
+	--font-mono: 'JetBrains Mono Variable', ui-monospace, SFMono-Regular, monospace;
+	--color-signal: oklch(0.85 0.115 195);
 	--color-sidebar-ring: var(--sidebar-ring);
 	--color-sidebar-border: var(--sidebar-border);
 	--color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
@@ -126,6 +132,48 @@
 		@apply bg-background text-foreground;
 	}
 	html {
-		@apply font-sans;
+		@apply scroll-smooth font-sans;
+	}
+	::selection {
+		background: var(--primary);
+		color: var(--primary-foreground);
+	}
+}
+
+@layer components {
+	/* Scroll-reveal primitive (driven by the `reveal` attachment) */
+	.reveal {
+		opacity: 0;
+		transform: translateY(18px);
+		transition:
+			opacity 0.7s ease,
+			transform 0.7s cubic-bezier(0.22, 1, 0.36, 1);
+	}
+	.reveal.is-visible {
+		opacity: 1;
+		transform: none;
+	}
+	@media (prefers-reduced-motion: reduce) {
+		.reveal {
+			opacity: 1;
+			transform: none;
+			transition: none;
+		}
+	}
+
+	/* Hairline "blueprint" grid used behind hero/contact sections */
+	.blueprint-grid {
+		background-image:
+			linear-gradient(
+				to right,
+				color-mix(in oklab, var(--border) 55%, transparent) 1px,
+				transparent 1px
+			),
+			linear-gradient(
+				to bottom,
+				color-mix(in oklab, var(--border) 55%, transparent) 1px,
+				transparent 1px
+			);
+		background-size: 56px 56px;
 	}
 }

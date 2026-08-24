@@ -1,12 +1,12 @@
 <script lang="ts">
-	import { onMount } from "svelte";
-	import { useInView } from "motion-sv";
-	import { cn } from "$lib/utils";
+	import { onMount } from 'svelte';
+	import { useInView } from 'motion-sv';
+	import { cn } from '$lib/utils';
 
 	interface NumberTickerProps {
 		value: number;
 		startValue?: number;
-		direction?: "up" | "down";
+		direction?: 'up' | 'down';
 		delay?: number;
 		decimalPlaces?: number;
 		class?: string;
@@ -18,13 +18,13 @@
 	let {
 		value,
 		startValue = 0,
-		direction = "up",
+		direction = 'up',
 		delay = 0,
 		decimalPlaces = 0,
 		class: className,
-		prefix = "",
-		suffix = "",
-		once = true,
+		prefix = '',
+		suffix = '',
+		once = true
 	}: NumberTickerProps = $props();
 
 	let spanRef: HTMLSpanElement | null = $state(null);
@@ -56,9 +56,9 @@
 
 			// Update display
 			if (spanRef) {
-				spanRef.textContent = `${prefix}${Intl.NumberFormat("en-US", {
+				spanRef.textContent = `${prefix}${Intl.NumberFormat('en-US', {
 					minimumFractionDigits: decimalPlaces,
-					maximumFractionDigits: decimalPlaces,
+					maximumFractionDigits: decimalPlaces
 				}).format(Number(position.toFixed(decimalPlaces)))}${suffix}`;
 			}
 
@@ -68,9 +68,9 @@
 				requestAnimationFrame(step);
 			} else if (spanRef) {
 				// Ensure final value is exact
-				spanRef.textContent = `${prefix}${Intl.NumberFormat("en-US", {
+				spanRef.textContent = `${prefix}${Intl.NumberFormat('en-US', {
 					minimumFractionDigits: decimalPlaces,
-					maximumFractionDigits: decimalPlaces,
+					maximumFractionDigits: decimalPlaces
 				}).format(Number(target.toFixed(decimalPlaces)))}${suffix}`;
 			}
 		}
@@ -83,7 +83,7 @@
 		() =>
 			({
 				once: once,
-				margin: "0px",
+				margin: '0px'
 			}) as any
 	);
 	$effect(() => {
@@ -91,8 +91,8 @@
 		if (view.current) {
 			timer = setTimeout(() => {
 				animateValue(
-					direction === "down" ? value : startValue,
-					direction === "down" ? startValue : value
+					direction === 'down' ? value : startValue,
+					direction === 'down' ? startValue : value
 				);
 			}, delay);
 		}
@@ -106,12 +106,12 @@
 
 <span
 	bind:this={spanRef}
-	class={cn("inline-block tracking-wider text-black tabular-nums dark:text-white", className)}
+	class={cn('inline-block tracking-wider text-black tabular-nums dark:text-white', className)}
 >
 	{prefix}
-	{Intl.NumberFormat("en-US", {
+	{Intl.NumberFormat('en-US', {
 		minimumFractionDigits: decimalPlaces,
-		maximumFractionDigits: decimalPlaces,
-	}).format(Number((direction === "down" ? value : startValue).toFixed(decimalPlaces)))}
+		maximumFractionDigits: decimalPlaces
+	}).format(Number((direction === 'down' ? value : startValue).toFixed(decimalPlaces)))}
 	{suffix}
 </span>

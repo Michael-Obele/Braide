@@ -1,0 +1,339 @@
+- generic [ref=f1e3]:
+  - link "Skip to content" [ref=f1e4] [cursor=pointer]:
+    - /url: "#experience"
+  - banner [ref=f1e5]:
+    - generic [ref=f1e6]:
+      - link "Back to top" [ref=f1e7] [cursor=pointer]:
+        - /url: "#top"
+        - generic [ref=f1e11]: DKB/net
+      - navigation "Primary" [ref=f1e12]:
+        - link "Experience" [ref=f1e13] [cursor=pointer]:
+          - /url: "#experience"
+        - link "Engagements" [ref=f1e14] [cursor=pointer]:
+          - /url: "#projects"
+        - link "Skills" [ref=f1e15] [cursor=pointer]:
+          - /url: "#skills"
+        - link "Credentials" [ref=f1e16] [cursor=pointer]:
+          - /url: "#credentials"
+        - link "Writing" [ref=f1e17] [cursor=pointer]:
+          - /url: "#writing"
+      - link "Get in touch" [ref=f1e18] [cursor=pointer]:
+        - /url: mailto:ambraidekaterina@gmail.com?subject=Connection%20via%20portfolio
+  - main [ref=f1e19]:
+    - generic [ref=f1e21]:
+      - generic [ref=f1e22]:
+        - generic [ref=f1e23]: Open to opportunities
+        - heading "Damiete Katerina Braide" [level=1] [ref=f1e27]
+        - paragraph [ref=f1e29]
+        - paragraph [ref=f1e30]: Results-driven Network Solutions Engineer designing and deploying enterprise WLAN, campus network, and cloud-managed infrastructure for high-profile clients across banking, government, and education in Nigeria. Huawei-certified across six specializations — from Datacom and Network Security to IP Networking and Presales — with hands-on expertise in iMaster NCE, SD-WAN, and Wi-Fi 7 POC delivery.
+        - paragraph [ref=f1e31]: Abuja, Nigeria
+        - generic [ref=f1e35]:
+          - link "Start a conversation" [ref=f1e36] [cursor=pointer]:
+            - /url: mailto:ambraidekaterina@gmail.com?subject=Let%27s%20talk%20networks
+          - link "Download CV" [ref=f1e37] [cursor=pointer]:
+            - /url: /Damiete-Braide-CV.pdf
+      - generic "Career highlights" [ref=f1e38]:
+        - generic [ref=f1e39]:
+          - term [ref=f1e40]: Enterprise clients served
+          - definition [ref=f1e41]:
+            - generic [ref=f1e42]: 0 +
+        - generic [ref=f1e43]:
+          - term [ref=f1e44]: Engineers mentored
+          - definition [ref=f1e45]:
+            - generic [ref=f1e46]: 0 +
+        - generic [ref=f1e47]:
+          - term [ref=f1e48]: Huawei certifications
+          - definition [ref=f1e49]:
+            - generic [ref=f1e50]: "0"
+        - generic [ref=f1e51]:
+          - term [ref=f1e52]: Sites, largest rollout
+          - definition [ref=f1e53]:
+            - generic [ref=f1e54]: "0"
+      - link "Scroll — trace the signal" [ref=f1e55] [cursor=pointer]:
+        - /url: "#experience"
+    - generic [ref=f1e59]:
+      - generic [ref=f1e60]:
+        - paragraph [ref=f1e61]: 01 · Career Path
+        - generic [ref=f1e62]:
+          - heading "Experience, in order of signal strength." [level=2] [ref=f1e63]
+          - paragraph [ref=f1e64]: "Four roles, one throughline: making networks work — and making them make sense to people."
+      - list [ref=f1e66]:
+        - listitem [ref=f1e67]:
+          - generic [ref=f1e69]:
+            - heading "Network Solutions Engineer" [level=3] [ref=f1e70]
+            - paragraph [ref=f1e71]: Jul 2025 — Present
+          - paragraph [ref=f1e72]:
+            - text: Huawei Technologies Co., Ltd.
+            - generic [ref=f1e73]: Now
+          - list [ref=f1e74]:
+            - listitem [ref=f1e75]:
+              - generic [ref=f1e77]: Architected and delivered WLAN solutions for 15 enterprise clients spanning banking, government, and education — including Sterling Bank, Alternative Bank, the Federal Ministry of Agriculture (7 sites), Kano Airport, and Port Harcourt Airport.
+            - listitem [ref=f1e78]:
+              - generic [ref=f1e80]: Engineered predictive WLAN simulation and heatmap analyses with Huawei WLAN Planner to design optimal coverage, capacity, and performance for greenfield and upgrade deployments.
+            - listitem [ref=f1e81]:
+              - generic [ref=f1e83]: Deployed iMaster NCE-Campus on live networks at the Nigerian Civil Aviation Authority and Mainstream Energy — configuring SSID, WPA3 authentication, AD synchronization, and 802.1X across wired and wireless infrastructure.
+            - listitem [ref=f1e84]:
+              - generic [ref=f1e86]: Executed a Wi-Fi 7 POC at Mainstream Energy, validating maximum-throughput benchmarks and demonstrating cloud-managed campus capabilities to C-level stakeholders.
+            - listitem [ref=f1e87]:
+              - generic [ref=f1e89]: Delivered CloudCampus solution presentations to the National Population Commission and Mainstream Energy, articulating architecture, automated O&M, and ROI to technical and executive audiences.
+            - listitem [ref=f1e90]:
+              - generic [ref=f1e92]: Drove POC training programs on Cloud-Campus, SD-WAN, and CCTV networking — equipping the team with repeatable delivery frameworks for new product lines.
+        - listitem [ref=f1e93]:
+          - generic [ref=f1e95]:
+            - heading "Tech Support Engineer" [level=3] [ref=f1e96]
+            - paragraph [ref=f1e97]: Apr 2024 — Mar 2025
+          - paragraph [ref=f1e98]: WELTEK Limited
+          - list [ref=f1e99]:
+            - listitem [ref=f1e100]:
+              - generic [ref=f1e102]: Configured and maintained enterprise routing, switching, and firewall infrastructure — measurably reducing network downtime through proactive fault management and security policy enforcement.
+            - listitem [ref=f1e103]:
+              - generic [ref=f1e105]: Designed customized networking solutions for diverse business clients, collaborating cross-functionally with sales and delivery to align architecture with operational requirements.
+            - listitem [ref=f1e106]:
+              - generic [ref=f1e108]: Managed contract-bidding documentation and network topology records, ensuring compliance readiness across all client engagements.
+            - listitem [ref=f1e109]:
+              - generic [ref=f1e111]: Diagnosed and resolved complex multi-layer network incidents, consistently restoring service within agreed SLA windows.
+        - listitem [ref=f1e112]:
+          - generic [ref=f1e114]:
+            - heading "ICT Instructor" [level=3] [ref=f1e115]
+            - paragraph [ref=f1e116]: 2021 — 2025
+          - paragraph [ref=f1e117]: Huawei ICT Academy · University of Port Harcourt
+          - list [ref=f1e118]:
+            - listitem [ref=f1e119]:
+              - generic [ref=f1e121]: Launched and scaled a Huawei ICT certification program, mentoring 100+ students toward HCIA and HCIP credentials and building a pipeline of industry-ready network engineers.
+            - listitem [ref=f1e122]:
+              - generic [ref=f1e124]: Developed hands-on lab curricula covering networking, cloud, and enterprise solutions aligned to Huawei global education standards.
+        - listitem [ref=f1e125]:
+          - generic [ref=f1e127]:
+            - heading "IT Support" [level=3] [ref=f1e128]
+            - paragraph [ref=f1e129]: 2021 — 2022
+          - paragraph [ref=f1e130]: Viguo IT Solutions
+          - list [ref=f1e131]:
+            - listitem [ref=f1e132]:
+              - generic [ref=f1e134]: Delivered first- and second-line IT support across hardware, software, and network layers for a publication and media organization.
+            - listitem [ref=f1e135]:
+              - generic [ref=f1e137]: Configured workstations, peripherals, and network devices — accelerating onboarding timelines for new staff.
+    - generic [ref=f1e139]:
+      - generic [ref=f1e140]:
+        - paragraph [ref=f1e141]: 02 · Field Work
+        - generic [ref=f1e142]:
+          - heading "Engagements that shipped." [level=2] [ref=f1e143]
+          - paragraph [ref=f1e144]: Banks, ministries, airports, universities — surveyed, simulated, proposed, and deployed.
+      - generic [ref=f1e146]:
+        - generic [ref=f1e147]:
+          - generic [ref=f1e148]: Flagship · Wi-Fi 7
+          - generic [ref=f1e150]:
+            - heading "Mainstream Energy" [level=3] [ref=f1e152]
+            - paragraph [ref=f1e156]: Wi-Fi 7 POC
+            - paragraph [ref=f1e157]: Installed iMaster NCE-Campus, onboarded live devices, configured the full WLAN stack, and completed a Wi-Fi 7 proof-of-concept validating next-generation throughput benchmarks.
+        - generic [ref=f1e160]:
+          - heading "Sterling Bank" [level=3] [ref=f1e162]
+          - paragraph [ref=f1e166]: Survey + Simulation
+          - paragraph [ref=f1e167]: Full site survey with predictive WLAN simulation and heatmap analysis; delivered a technical proposal optimizing wireless coverage and capacity.
+        - generic [ref=f1e170]:
+          - heading "Alternative Bank" [level=3] [ref=f1e172]
+          - paragraph [ref=f1e176]: Greenfield Design
+          - paragraph [ref=f1e177]: End-to-end wireless design for a site with zero existing connectivity — from site survey through heatmap-validated proposal.
+        - generic [ref=f1e180]:
+          - heading "Federal Ministry of Agriculture & Food Security" [level=3] [ref=f1e182]
+          - paragraph [ref=f1e186]: 7-Site Rollout
+          - paragraph [ref=f1e187]: Scaled WLAN survey and design across 7 nationwide locations; proposed iMaster NCE for centralized monitoring and maintenance.
+        - generic [ref=f1e190]:
+          - heading "Nigerian Civil Aviation Authority" [level=3] [ref=f1e192]
+          - paragraph [ref=f1e196]: Live Deployment
+          - paragraph [ref=f1e197]: Deployed iMaster NCE-Campus on a live production network — onboarded devices and configured SSID, authentication, and AD synchronization.
+        - generic [ref=f1e200]:
+          - heading "Ministry of Foreign Affairs" [level=3] [ref=f1e202]
+          - paragraph [ref=f1e206]: Tiered Proposal
+          - paragraph [ref=f1e207]: Executed site survey and produced a three-tier budget-aligned WLAN proposal with simulation results and coverage heatmaps.
+        - generic [ref=f1e210]:
+          - heading "National Population Commission" [level=3] [ref=f1e212]
+          - paragraph [ref=f1e216]: 10 Gbps CloudCampus
+          - paragraph [ref=f1e217]: Presented Huawei’s 10 Gbps CloudCampus solution — architecture, cloud-managed operations, and automated O&M benefits — to executive stakeholders.
+        - generic [ref=f1e220]:
+          - heading "University of Abuja" [level=3] [ref=f1e222]
+          - paragraph [ref=f1e226]: 5 Departments
+          - paragraph [ref=f1e227]: Multi-department site survey and comprehensive WLAN upgrade proposal with simulation and coverage analysis.
+        - generic [ref=f1e230]:
+          - heading "Glisten International Academy" [level=3] [ref=f1e232]
+          - paragraph [ref=f1e236]: Indoor + Outdoor
+          - paragraph [ref=f1e237]: Designed WLAN topology for indoor and outdoor scenarios — routers, firewall, core switches, PoE access switches, and APs.
+        - generic [ref=f1e240]:
+          - heading "Airports, Universities & Tribunal" [level=3] [ref=f1e242]
+          - paragraph [ref=f1e246]: Simulation Portfolio
+          - paragraph [ref=f1e247]: Kano Airport · Port Harcourt Airport · University of Ilorin · University of Katsina · Code of Conduct Tribunal — simulation-based WLAN designs with predictive coverage insights.
+    - generic [ref=f1e249]:
+      - generic [ref=f1e250]:
+        - paragraph [ref=f1e251]: 03 · Toolkit
+        - generic [ref=f1e252]:
+          - heading "The stack behind the signal." [level=2] [ref=f1e253]
+          - paragraph [ref=f1e254]: From Layer 1 to the boardroom — design tools, protocols, and the presales craft that turns surveys into signed proposals.
+      - generic [ref=f1e256]:
+        - generic [ref=f1e257]:
+          - heading "Networking & Infrastructure" [level=3] [ref=f1e264]
+          - generic [ref=f1e265]:
+            - generic [ref=f1e266]: TCP/IP
+            - generic [ref=f1e267]: OSI Model
+            - generic [ref=f1e268]: LAN/WAN
+            - generic [ref=f1e269]: VLAN
+            - generic [ref=f1e270]: Routing & Switching
+            - generic [ref=f1e271]: WLAN Design
+            - generic [ref=f1e272]: Network Security
+            - generic [ref=f1e273]: Firewall Configuration
+            - generic [ref=f1e274]: SD-WAN
+            - generic [ref=f1e275]: Campus Networks
+        - generic [ref=f1e276]:
+          - heading "Huawei Stack" [level=3] [ref=f1e282]
+          - generic [ref=f1e283]:
+            - generic [ref=f1e284]: iMaster NCE-Campus
+            - generic [ref=f1e285]: VRP Platform
+            - generic [ref=f1e286]: eNSP
+            - generic [ref=f1e287]: WLAN Planner
+            - generic [ref=f1e288]: DemoCloud
+            - generic [ref=f1e289]: Cloud-Campus
+            - generic [ref=f1e290]: Wi-Fi 7
+            - generic [ref=f1e291]: Enterprise Switches · Routers · APs
+        - generic [ref=f1e292]:
+          - heading "Protocols & Standards" [level=3] [ref=f1e295]
+          - generic [ref=f1e296]:
+            - generic [ref=f1e297]: 802.11a/b/g/n/ac/ax
+            - generic [ref=f1e298]: WPA / WPA2 / WPA3
+            - generic [ref=f1e299]: 802.1X
+            - generic [ref=f1e300]: PPSK
+            - generic [ref=f1e301]: RADIUS AAA
+            - generic [ref=f1e302]: MAC Auth
+            - generic [ref=f1e303]: Portal Auth
+            - generic [ref=f1e304]: PoE
+            - generic [ref=f1e305]: AD Synchronization
+        - generic [ref=f1e306]:
+          - heading "Presales & Solutions" [level=3] [ref=f1e311]
+          - generic [ref=f1e312]:
+            - generic [ref=f1e313]: Site Surveys
+            - generic [ref=f1e314]: Heatmap Analysis
+            - generic [ref=f1e315]: Technical Proposal Writing
+            - generic [ref=f1e316]: Solution Presentations
+            - generic [ref=f1e317]: Predictive Coverage Design
+            - generic [ref=f1e318]: POC Planning & Delivery
+      - generic [ref=f1e319]:
+        - paragraph [ref=f1e320]: Lab & POC competencies
+        - generic [ref=f1e321]:
+          - heading [level=3] [ref=f1e323]:
+            - button "▸ WLAN" [ref=f1e324]:
+              - generic [ref=f1e325]:
+                - generic [ref=f1e326]: ▸
+                - text: WLAN
+          - heading [level=3] [ref=f1e328]:
+            - button "▸ Campus Network · iMaster NCE-Campus" [ref=f1e329]:
+              - generic [ref=f1e330]:
+                - generic [ref=f1e331]: ▸
+                - text: Campus Network · iMaster NCE-Campus
+    - generic [ref=f1e333]:
+      - generic [ref=f1e334]:
+        - paragraph [ref=f1e335]: 04 · Proof
+        - generic [ref=f1e336]:
+          - heading "Certified thirteen times over." [level=2] [ref=f1e337]
+          - paragraph [ref=f1e338]: Huawei-certified across Datacom, WLAN, security, storage, IP networking, and data center facilities.
+      - generic [ref=f1e340]:
+        - generic [ref=f1e341]:
+          - generic [ref=f1e342]:
+            - heading "Professional" [level=3] [ref=f1e349]
+            - generic [ref=f1e350]: (3)
+          - generic [ref=f1e351]:
+            - generic [ref=f1e352]: HCIP — WLAN
+            - generic [ref=f1e353]: HCIA — Datacom
+            - generic [ref=f1e354]: Huawei Certified Academy Instructor
+        - generic [ref=f1e355]:
+          - generic [ref=f1e356]:
+            - heading "Presales Specialist" [level=3] [ref=f1e363]
+            - generic [ref=f1e364]: (8)
+          - generic [ref=f1e365]:
+            - generic [ref=f1e366]: Network Security
+            - generic [ref=f1e367]: SME Network
+            - generic [ref=f1e368]: Storage
+            - generic [ref=f1e369]: IP Network
+            - generic [ref=f1e370]: Data Center Facility — Power
+            - generic [ref=f1e371]: Data Center Facility — Cooling
+            - generic [ref=f1e372]: Data Center Facility — Storage
+            - generic [ref=f1e373]: SME Network — Professional
+        - generic [ref=f1e374]:
+          - generic [ref=f1e375]:
+            - heading "Honors" [level=3] [ref=f1e382]
+            - generic [ref=f1e383]: (2)
+          - generic [ref=f1e384]:
+            - generic [ref=f1e385]: Seed for the Future (CC)
+            - generic [ref=f1e386]: Best Ambassador Award 2023–2024
+    - generic [ref=f1e388]:
+      - generic [ref=f1e389]:
+        - paragraph [ref=f1e390]: 05 · Bylines
+        - generic [ref=f1e391]:
+          - heading "Writes like an engineer." [level=2] [ref=f1e392]
+          - paragraph [ref=f1e393]: Technical publications that translate networking and web concepts into plain, useful language.
+      - list [ref=f1e395]:
+        - listitem [ref=f1e396]:
+          - generic [ref=f1e397]:
+            - generic [ref=f1e398]: "01"
+            - generic [ref=f1e399]: Basic OSI & TCP/IP Overview
+        - listitem [ref=f1e402]:
+          - generic [ref=f1e403]:
+            - generic [ref=f1e404]: "02"
+            - generic [ref=f1e405]: "Secure Web Authentication with a Serverless API: A Quick Guide"
+        - listitem [ref=f1e408]:
+          - generic [ref=f1e409]:
+            - generic [ref=f1e410]: "03"
+            - generic [ref=f1e411]: "CSS Grid vs Flexbox: Using Ajax for Dynamic Web Page Loading"
+        - listitem [ref=f1e414]:
+          - generic [ref=f1e415]:
+            - generic [ref=f1e416]: "04"
+            - generic [ref=f1e417]: The Impact and Necessity of Dark Mode on User Experience
+        - listitem [ref=f1e420]:
+          - generic [ref=f1e421]:
+            - generic [ref=f1e422]: "05"
+            - generic [ref=f1e423]: Building Progressive Web Applications using SvelteKit
+        - listitem [ref=f1e426]:
+          - generic [ref=f1e427]:
+            - generic [ref=f1e428]: "06"
+            - generic [ref=f1e429]: Dynamic Styling with JIT Mode | Variable Fonts for Dynamic Typography
+    - generic [ref=f1e433]:
+      - generic [ref=f1e434]:
+        - paragraph [ref=f1e435]: 06 · Beyond the Rack
+        - heading "Leader in the community, student for life." [level=2] [ref=f1e437]
+      - generic [ref=f1e439]:
+        - generic [ref=f1e440]:
+          - heading "Leadership & Affiliations" [level=3] [ref=f1e447]
+          - list [ref=f1e448]:
+            - listitem [ref=f1e449]:
+              - paragraph [ref=f1e450]: Vice President
+              - paragraph [ref=f1e451]: NACOS · University of Port Harcourt
+            - listitem [ref=f1e452]:
+              - paragraph [ref=f1e453]: Face of NACOS
+              - paragraph [ref=f1e454]: University of Port Harcourt
+            - listitem [ref=f1e455]:
+              - paragraph [ref=f1e456]: Treasurer
+              - paragraph [ref=f1e457]: Bakana Student Association
+            - listitem [ref=f1e458]:
+              - paragraph [ref=f1e459]: Global Huawei ICT Competition
+              - paragraph [ref=f1e460]: National & Regional stages
+        - generic [ref=f1e461]:
+          - heading "Education" [level=3] [ref=f1e466]
+          - list [ref=f1e467]:
+            - listitem [ref=f1e468]:
+              - generic [ref=f1e469]:
+                - paragraph [ref=f1e470]: MBA
+                - paragraph [ref=f1e471]: Miva Open University
+              - paragraph [ref=f1e472]: 2025 — Present
+            - listitem [ref=f1e473]:
+              - generic [ref=f1e474]:
+                - paragraph [ref=f1e475]: BSc Computer Science
+                - paragraph [ref=f1e476]: University of Port Harcourt
+              - paragraph [ref=f1e477]: 2018 — 2024
+    - generic [ref=f1e479]:
+      - paragraph [ref=f1e480]: 07 · Handshake
+      - heading "Ready to deploy? Let’s establish the link." [level=2] [ref=f1e481]
+      - paragraph [ref=f1e482]: Hiring for a network role, need WLAN design or presales expertise, or want a technical writer who actually speaks 802.11? The fastest route is email — she replies within a day.
+      - generic [ref=f1e483]:
+        - link "Write to Damiete" [ref=f1e484] [cursor=pointer]:
+          - /url: mailto:ambraidekaterina@gmail.com?subject=Network%20project%20inquiry%20%E2%80%94%20via%20portfolio&body=Hi%20Damiete%2C%0A%0A
+        - link "+234 907 731 7693" [ref=f1e485] [cursor=pointer]:
+          - /url: tel:+2349077317693
+      - generic [ref=f1e486]:
+        - paragraph [ref=f1e487]: DKB/net · 2026
+        - paragraph [ref=f1e488]: Abuja, Nigeria
