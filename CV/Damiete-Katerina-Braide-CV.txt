@@ -1,0 +1,155 @@
+                         DAMIETE KATERINA BRAIDE
+                                              Network Solutions Sales Engineer
+                                ambraidekaterina@gmail.com · 09077317693 · Abuja, Nigeria
+
+
+
+PROFESSIONAL SUMMARY
+Results-driven Network Solutions Engineer with a proven track record designing and deploying enterprise WLAN, campus
+network, and cloud-managed infrastructure for high-profile clients across banking, government, and education sectors in
+Nigeria. Huawei-certified across six specializations from Datacom and Network Security to IP Networking and Presales with
+hands-on expertise in iMaster NCE, SD-WAN, and Wi-Fi 7 POC delivery.
+
+
+
+PROFESSIONAL EXPERIENCE
+
+Network Solutions Engineer | Huawei Technologies Co., Ltd.                                      July 2025 – Present
+Nigeria Enterprise Network Solution Sales Dept.
+  ▸ Architected and delivered WLAN solutions for 15 enterprise clients spanning banking, government, and education,
+    including Sterling Bank, Alternative Bank, Federal Ministry of Agriculture (7 sites), Kano Airport, and Port Harcourt
+    Airport.
+  ▸ Engineered predictive WLAN simulation and heatmap analyses using Huawei WLAN Planner to design optimal coverage,
+    capacity, and performance for greenfield and upgrade deployments.
+  ▸ Deployed iMaster NCE-Campus on live networks at Nigerian Civil Aviation Authority and Mainstream Energy, configuring
+    SSID, WPA3 authentication, AD synchronization, and 802.1X across wired and wireless infrastructure.
+  ▸ Executed Wi-Fi 7 POC at Mainstream Energy, validating maximum-throughput performance benchmarks and
+    demonstrating cloud-managed campus capabilities to C-level stakeholders.
+  ▸ Delivered CloudCampus Solution presentations to National Population Commission and Mainstream Energy, articulating
+    architecture, automated O&M, and ROI to both technical and executive audiences.
+  ▸ Conducted end-to-end site surveys across multi-site environments (up to 7 locations per engagement), translating pain
+    points into tiered technical proposals aligned to client budgets and constraints.
+  ▸ Drove POC training programs on Cloud-Campus, SD-WAN, and CCTV networking, equipping the team with repeatable
+    delivery frameworks for new product lines.
+
+Tech Support Engineer | WELTEK Limited                                                        Apr 2024 – Mar 2025
+  ▸ Configured and maintained enterprise routing, switching, and firewall infrastructure, achieving measurable reductions in
+    network downtime through proactive fault management and security policy enforcement.
+  ▸ Designed customized networking solutions for diverse business clients by collaborating cross-functionally with sales and
+    delivery teams to align technical architecture with operational requirements.
+  ▸ Managed critical contract-bidding documentation and network topology records, ensuring compliance readiness across
+    all client engagements.
+  ▸ Diagnosed and resolved complex multi-layer network incidents, consistently restoring service within agreed SLA
+    windows.
+
+ICT Instructor — Huawei ICT Academy | University of Port Harcourt                                    2021 – 2025
+  ▸ Launched and scaled a Huawei ICT certification program, mentoring 100+ students toward HCIA and HCIP credentials and
+    building a pipeline of industry-ready network engineers.
+  ▸ Developed hands-on lab curricula covering networking, cloud, and enterprise solutions aligned to Huawei global
+    education standards.
+
+IT Support | Viguo IT Solutions                                                                       2021 – 2022
+  ▸ Delivered first and second-line IT support across hardware, software, and network layers, ensuring uninterrupted daily
+    operations for a publication and media organization.
+  ▸ Configured workstations, peripherals, and network devices, accelerating onboarding timelines for new staff.
+
+
+TECHNICAL SKILLS
+
+
+Networking & Infrastructure: TCP/IP · OSI Model · LAN/WAN · VLAN · Routing & Switching · WLAN Design · Network
+Security · Firewall Configuration · SD-WAN · Campus Networks.
+Huawei Technologies: VRP Platform · iMaster NCE-Campus · eNSP · WLAN Planner · DemoCloud · Huawei Enterprise Switches,
+Routers & APs · Cloud-Campus · Wi-Fi 7 · EdrawMax · Enterprise Datacom Bookshelf.
+Protocols & Standards: 802.11a/b/g/n/ac/ax (Wi-Fi 7) · WPA/WPA2/WPA3 · 802.1X · PPSK · RADIUS AAA · MAC Auth · Portal
+Auth · SSID · PoE · AD Synchronization.
+Presales & Solutions: Site Surveys · WLAN Simulation & Heatmap Analysis · Technical Proposal Writing · Solution
+Presentations · Predictive Coverage Design · POC Planning & Delivery.
+IT Operations: Network Troubleshooting · Technical Documentation · IT Support · Project Management.
+
+
+
+KEY PROJECTS & CLIENT ENGAGEMENTS
+Enterprise WLAN Design & Deployment | Huawei Technologies | 2025
+  ▸ Sterling Bank: Full site survey + predictive WLAN simulation with heatmap analysis; delivered technical proposal
+     optimizing wireless coverage and capacity.
+  ▸ Alternative Bank: Greenfield wireless network design for a site with zero existing connectivity, architected end-to-end
+     from site survey through heatmap-validated proposal.
+  ▸ Federal Ministry of Agriculture & Food Security (7 Sites): Scaled WLAN survey and design across 7 nationwide locations;
+     proposed iMaster NCE for centralized monitoring and maintenance.
+  ▸ Ministry of Foreign Affairs: Executed site survey and produced a three-tier budget-aligned WLAN proposal with
+     simulation results and coverage heatmaps.
+  ▸ Nigerian Civil Aviation Authority: Deployed iMaster NCE-Campus on a live production network; onboarded devices and
+     configured SSID, authentication, and AD synchronization.
+  ▸ Mainstream Energy (Wi-Fi 7 POC): Installed iMaster NCE-Campus, onboarded live network devices, configured full WLAN
+     stack, and successfully completed Wi-Fi 7 POC, validating next-generation throughput benchmarks.
+  ▸ National Population Commission: Presented Huawei 10 Gbps CloudCampus Solution, covering architecture, cloud-
+     managed operations, and automated O&M benefits to executive stakeholders.
+  ▸ University of Abuja (5 Departments): Conducted multi-department site survey and developed comprehensive WLAN
+     upgrade proposal with simulation and coverage analysis.
+  ▸ Glisten International Academy: Designed WLAN topology for indoor and outdoor scenarios; delivered proposal covering
+     routers, firewall, core switches, PoE access switches, and APs.
+  ▸ Kano Airport · Port Harcourt Airport · University of Ilorin · University of Katsina · Code of Conduct Tribunal: Delivered
+     simulation-based WLAN design proposals with predictive coverage insights for wireless network deployment.
+
+
+
+POC & LAB COMPETENCIES
+WLAN
+ ▸ WLAN Basic Services: multi-radio modes, WEP/WPA/WPA2/WPA3 security, multi-SSID, direct/tunnel forwarding, STA
+    access control.
+ ▸ WLAN QoS: Client-based and SSID-based rate limiting, VIP preferential access, congestion management.
+ ▸ WLAN Security: AP authentication via MAC/SN, AP whitelist/blacklist, PPSK, RADIUS AAA, MAC auth, 802.1X (machine +
+    username, AD identity source), Portal auth via iMaster NCE.
+ ▸ O&M: AC web management, Fat/Fit mode switching, FTP/AC-mode AP upgrades, SYSLOG.
+Campus Network (iMaster NCE-Campus)
+  ▸ Deployment: Controller installation, license upload, MSP/tenant account creation, site creation, device onboarding.
+  ▸ Network Services: Wireless/wired 802.1X, guest portal auth, VIP bandwidth reservation, preferential access.
+  ▸ Monitoring & O&M: Device information monitoring, log management, fault alarm, network digital maps.
+
+
+CERTIFICATIONS and AWARDS
+
+
+  ▸ Huawei Certified ICT Associate (HCIA) – Datacom.
+  ▸ Huawei Certified ICT Professional (HCIP) – WLAN.
+  ▸ Huawei Certified Academy Instructor.
+  ▸ Huawei Certified Specialist Associate Presales – Network Security.
+  ▸ Huawei Certified Specialist Associate Presales – SME Network.
+  ▸ Huawei Certified Specialist Associate Presales – Storage.
+  ▸ Huawei Certified Specialist Associate Presales – IP Network.
+  ▸ Huawei Certified Specialist Professional Presales –Data Center Facility (Power).
+  ▸ Huawei Certified Specialist Professional Presales – Data Center Facility (Cooling).
+  ▸ Huawei Certified Specialist Professional Presales – Storage.
+  ▸ Huawei Certified Specialist Professional Presales – SME Network.
+  ▸ Huawei Seed for the Future (CC).
+  ▸ Huawei Best Ambassador Award 2023–2024.
+
+
+EDUCATION
+Master of Business Administration (MBA)                                                           2025 – Present
+Miva Open University
+BSc Computer Science                                                                                  2018 – 2024
+University of Port Harcourt
+
+
+
+TECHNICAL PUBLICATIONS
+
+
+  ▸ Basic OSI & TCP/IP Overview
+  ▸ Secure Web Authentication with a Serverless API: A Quick Guide
+  ▸ CSS Grid vs Flexbox: Using Ajax for Dynamic Web Page Loading
+  ▸ The Impact and Necessity of Dark Mode on User Experience
+  ▸ Building Progressive Web Applications using Svelte Kit
+  ▸ Dynamic Styling with JIT Mode | Variable Fonts for Dynamic Typography
+
+
+LEADERSHIP & AFFILIATIONS
+
+
+  ▸ Vice President — Nigeria Association of Computing Students (NACOS), University of Port Harcourt
+  ▸ Face of NACOS — University of Port Harcourt
+  ▸ Treasurer — Bakana Student Association (BSA)
+  ▸ Global Huawei ICT Competition — Represented institution at National and Regional stages
+

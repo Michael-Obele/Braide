@@ -119,7 +119,7 @@
 		>
 			{#each stats as stat, i (stat.label)}
 				<div
-					class="border-border px-1 py-6 not-last:border-r md:px-6 max-md:nth-[-n+2]:border-b max-md:nth-2:border-r-0"
+					class="border-border px-1 py-6 not-last:border-r max-md:nth-2:border-r-0 max-md:nth-[-n+2]:border-b md:px-6"
 					{@attach reveal(i * 90)}
 				>
 					<dt

@@ -19,7 +19,7 @@
 			{#each projects as project, i (project.client)}
 				<Card
 					class="group relative gap-4 overflow-visible border border-border/70 bg-background p-5 pt-6 shadow-none ring-0 transition-colors duration-300 hover:border-primary/50 {project.featured
-						? 'sm:col-span-2 lg:col-span-1 ring-1 ring-primary/30 pt-8'
+						? 'pt-8 ring-1 ring-primary/30 sm:col-span-2 lg:col-span-1'
 						: ''}"
 					{@attach reveal((i % 3) * 80)}
 				>
