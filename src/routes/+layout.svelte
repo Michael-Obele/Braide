@@ -6,7 +6,7 @@
 	import { Agentation, type AnnotationProps } from 'sv-agentation';
 
 	let playgroundAnnotationProps: AnnotationProps = {
-		toolbarPosition: 'top-left',
+		toolbarPosition: 'bottom-left',
 		outputMode: 'compact',
 		pauseAnimations: true,
 		clearOnCopy: true,
