@@ -2,6 +2,17 @@
 	import './layout.css';
 	import favicon from '$lib/assets/favicon.svg';
 	import Nav from '$lib/components/site/nav.svelte';
+	import { browser, dev } from '$app/environment';
+	import { Agentation, type AnnotationProps } from 'sv-agentation';
+
+	let playgroundAnnotationProps: AnnotationProps = {
+		toolbarPosition: 'top-left',
+		outputMode: 'compact',
+		pauseAnimations: true,
+		clearOnCopy: true,
+		includeComponentContext: false,
+		includeComputedStyles: false
+	};
 
 	let { children } = $props();
 </script>
@@ -29,3 +40,7 @@
 		{@render children()}
 	</main>
 </div>
+
+{#if browser && dev}
+	<Agentation {...playgroundAnnotationProps} />
+{/if}
