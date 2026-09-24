@@ -9,7 +9,7 @@
 	}: { index: string; kicker: string; title: string; note?: string } = $props();
 </script>
 
-<div class="mb-10 md:mb-14" {@attach reveal()}>
+<div class="mb-8 md:mb-10" {@attach reveal()}>
 	<p class="font-mono text-xs tracking-[0.25em] text-primary uppercase">
 		{index} · {kicker}
 	</p>
@@ -21,5 +21,5 @@
 			<p class="max-w-sm pb-1 text-sm text-muted-foreground">{note}</p>
 		{/if}
 	</div>
-	<div class="mt-6 h-px w-full bg-linear-to-r from-primary/60 via-border to-transparent"></div>
+	<div class="mt-5 h-px w-full bg-linear-to-r from-primary/60 via-border to-transparent"></div>
 </div>

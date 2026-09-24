@@ -4,12 +4,13 @@
 	import HyperText from '$lib/components/magic/hyper-text/hyper-text.svelte';
 	import NumberTicker from '$lib/components/magic/number-ticker/number-ticker.svelte';
 	import AnimatedGridPattern from '$lib/components/magic/animated-grid-pattern/animated-grid-pattern.svelte';
+	import LinkedInIcon from '$lib/components/site/linkedin-icon.svelte';
 	import { reveal } from '$lib/attachments/reveal';
 	import { profile, roles, stats } from '$lib/data/cv.js';
 	import { ArrowDown, Download, MapPin } from '@lucide/svelte';
 </script>
 
-<section id="top" class="relative overflow-hidden pt-16">
+<section id="top" class="relative overflow-hidden pt-14">
 	<!-- Backdrop: blueprint grid + animated signal grid + heatmap glow -->
 	<div
 		class="blueprint-grid pointer-events-none absolute inset-0 opacity-60"
@@ -31,7 +32,7 @@
 		aria-hidden="true"
 	></div>
 
-	<div class="relative mx-auto max-w-6xl px-5 pt-16 pb-20 md:px-8 md:pt-24 md:pb-28">
+	<div class="relative mx-auto max-w-6xl px-4 pt-10 pb-12 md:px-8 md:pt-14 md:pb-16">
 		<div class="max-w-3xl" {@attach reveal()}>
 			<Badge
 				variant="outline"
@@ -47,7 +48,7 @@
 			</Badge>
 
 			<h1
-				class="mt-6 font-display text-5xl leading-[1.02] font-medium tracking-tight text-balance sm:text-6xl md:text-7xl"
+				class="mt-5 font-display text-[2.75rem] leading-[1.02] font-medium tracking-tight text-balance sm:text-6xl lg:text-7xl"
 			>
 				{profile.firstName}
 				<span class="font-display text-primary italic">Katerina</span>
@@ -84,7 +85,7 @@
 				/>
 			</div>
 
-			<p class="mt-6 max-w-2xl text-base leading-relaxed text-muted-foreground md:text-lg">
+			<p class="mt-5 max-w-2xl text-base leading-relaxed text-muted-foreground md:text-lg">
 				{profile.summary}
 			</p>
 
@@ -95,7 +96,7 @@
 				{profile.location}
 			</p>
 
-			<div class="mt-8 flex flex-wrap items-center gap-3">
+			<div class="mt-7 flex flex-wrap items-center gap-3">
 				<Button href="mailto:{profile.email}?subject=Let%27s%20talk%20networks" size="lg">
 					Start a conversation
 				</Button>
@@ -103,23 +104,27 @@
 					href="/Damiete-Braide-CV.pdf"
 					target="_blank"
 					rel="noopener"
-					variant="outline"
+					variant="outline" class='hover:bg-primary! hover:text-black'
 					size="lg"
 				>
 					<Download data-icon="inline-start" />
 					Download CV
+				</Button>
+				<Button href={profile.linkedin} target="_blank" rel="noopener" variant="outline" class='hover:bg-primary! hover:text-black' size="lg">
+					<LinkedInIcon class="size-4" />
+					LinkedIn
 				</Button>
 			</div>
 		</div>
 
 		<!-- Stats strip -->
 		<dl
-			class="mt-16 grid grid-cols-2 border-t border-border md:grid-cols-4"
+			class="mt-10 grid grid-cols-2 border-y border-border md:grid-cols-4"
 			aria-label="Career highlights"
 		>
 			{#each stats as stat, i (stat.label)}
 				<div
-					class="border-border px-1 py-6 not-last:border-r max-md:nth-2:border-r-0 max-md:nth-[-n+2]:border-b md:px-6"
+					class="border-border px-4 py-5 not-last:border-r max-md:nth-2:border-r-0 max-md:nth-[-n+2]:border-b md:px-6"
 					{@attach reveal(i * 90)}
 				>
 					<dt
@@ -127,7 +132,7 @@
 					>
 						{stat.label}
 					</dt>
-					<dd class="order-1 font-display text-4xl font-medium text-foreground md:text-5xl">
+					<dd class="order-1 font-display text-3xl font-medium text-foreground md:text-4xl">
 						<NumberTicker value={stat.value} suffix={stat.suffix} class="text-primary" />
 					</dd>
 				</div>
@@ -136,7 +141,7 @@
 
 		<a
 			href="#experience"
-			class="mt-14 inline-flex items-center gap-2 font-mono text-xs tracking-widest text-muted-foreground uppercase transition-colors hover:text-primary"
+			class="mt-8 inline-flex items-center gap-2 font-mono text-xs tracking-widest text-muted-foreground uppercase transition-colors hover:text-primary"
 		>
 			Scroll — trace the signal
 			<ArrowDown class="size-3.5 animate-bounce" />

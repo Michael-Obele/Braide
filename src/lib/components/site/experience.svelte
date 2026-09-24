@@ -5,8 +5,8 @@
 	import { experience } from '$lib/data/cv.js';
 </script>
 
-<section id="experience" class="scroll-mt-20">
-	<div class="mx-auto max-w-6xl px-5 py-16 md:px-8 md:py-24">
+<section id="experience" class="scroll-mt-16">
+	<div class="mx-auto max-w-6xl px-4 py-12 md:px-8 md:py-16">
 		<SectionHeading
 			index="01"
 			kicker="Career Path"
@@ -15,7 +15,7 @@
 		/>
 
 		<ol
-			class="relative space-y-12 before:absolute before:top-2 before:bottom-2 before:left-1.75 before:w-px before:bg-border md:space-y-16"
+			class="relative space-y-8 before:absolute before:top-2 before:bottom-2 before:left-1.75 before:w-px before:bg-border md:space-y-10"
 		>
 			{#each experience as job (job.company + job.period)}
 				<li class="relative pl-8 md:pl-12" {@attach reveal()}>
@@ -41,7 +41,7 @@
 						{/if}
 					</p>
 
-					<ul class="mt-5 space-y-3">
+					<ul class="mt-4 space-y-2.5">
 						{#each job.highlights as highlight, i (i)}
 							<li class="flex gap-3 text-sm leading-relaxed text-muted-foreground md:text-[15px]">
 								<span class="mt-2.25 size-1 shrink-0 bg-primary" aria-hidden="true"></span>

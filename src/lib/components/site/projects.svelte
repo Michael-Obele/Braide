@@ -6,8 +6,8 @@
 	import { ArrowUpRight } from '@lucide/svelte';
 </script>
 
-<section id="projects" class="scroll-mt-20 border-t border-border bg-card/40">
-	<div class="mx-auto max-w-6xl px-5 py-16 md:px-8 md:py-24">
+<section id="projects" class="scroll-mt-16 border-t border-border bg-card/40">
+	<div class="mx-auto max-w-6xl px-4 py-12 md:px-8 md:py-16">
 		<SectionHeading
 			index="02"
 			kicker="Field Work"

@@ -15,8 +15,8 @@
 	};
 </script>
 
-<section id="skills" class="scroll-mt-20">
-	<div class="mx-auto max-w-6xl px-5 py-16 md:px-8 md:py-24">
+<section id="skills" class="scroll-mt-16">
+	<div class="mx-auto max-w-6xl px-4 py-12 md:px-8 md:py-16">
 		<SectionHeading
 			index="03"
 			kicker="Toolkit"
@@ -43,7 +43,7 @@
 			{/each}
 		</div>
 
-		<div class="mt-10" {@attach reveal(120)}>
+		<div class="mt-8" {@attach reveal(120)}>
 			<p class="mb-3 font-mono text-xs tracking-[0.25em] text-muted-foreground uppercase">
 				Lab & POC competencies
 			</p>

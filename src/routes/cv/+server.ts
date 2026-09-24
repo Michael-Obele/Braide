@@ -3,7 +3,7 @@ import { readFileSync } from 'node:fs';
 import { resolve } from 'node:path';
 
 export async function GET() {
-	const p = resolve('static/Damiete-Braide-CV.txt');
+	const p = resolve('static/Damiete-Braide-CV.pdf');
 	try {
 		const txt = readFileSync(p, 'utf-8');
 		return new Response(txt, {
