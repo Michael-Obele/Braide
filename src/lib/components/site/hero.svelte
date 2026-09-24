@@ -28,15 +28,15 @@
 		aria-hidden="true"
 	></div>
 	<div
-		class="pointer-events-none absolute inset-x-0 bottom-0 h-40 bg-linear-to-t from-background to-transparent"
+		class="pointer-events-none absolute inset-x-0 bottom-0 h-24 bg-linear-to-t from-background to-transparent"
 		aria-hidden="true"
 	></div>
 
-	<div class="relative mx-auto max-w-6xl px-4 pt-10 pb-12 md:px-8 md:pt-14 md:pb-16">
-		<div class="max-w-3xl" {@attach reveal()}>
+	<div class="relative mx-auto max-w-6xl px-4 pt-6 pb-10 md:px-8 md:pt-8 md:pb-12">
+		<div class="flex max-w-3xl flex-col gap-4" {@attach reveal()}>
 			<Badge
 				variant="outline"
-				class="h-7 gap-2 border-primary/40 px-3 font-mono text-xs tracking-widest text-primary uppercase"
+				class="h-7 w-fit gap-2 border-primary/40 px-3 font-mono text-xs tracking-widest text-primary uppercase"
 			>
 				<span class="relative flex size-2">
 					<span
@@ -48,7 +48,7 @@
 			</Badge>
 
 			<h1
-				class="mt-5 font-display text-[2.75rem] leading-[1.02] font-medium tracking-tight text-balance sm:text-6xl lg:text-7xl"
+				class="font-display text-[2.5rem] leading-[0.95] font-medium tracking-tight text-balance sm:text-5xl lg:text-6xl"
 			>
 				{profile.firstName}
 				<span class="font-display text-primary italic">Katerina</span>
@@ -56,7 +56,7 @@
 			</h1>
 
 			<div
-				class="mt-5 font-mono text-sm tracking-[0.2em] text-muted-foreground uppercase sm:text-base"
+				class="font-mono text-xs tracking-[0.18em] text-muted-foreground uppercase sm:text-sm"
 			>
 				<HyperText
 					text="Network Engineer × Technical Writer × Instructor"
@@ -85,18 +85,18 @@
 				/>
 			</div>
 
-			<p class="mt-5 max-w-2xl text-base leading-relaxed text-muted-foreground md:text-lg">
+			<p class="max-w-2xl text-[15px] leading-relaxed text-muted-foreground md:text-base">
 				{profile.summary}
 			</p>
 
 			<p
-				class="mt-4 flex items-center gap-1.5 font-mono text-xs tracking-widest text-muted-foreground uppercase"
+				class="flex items-center gap-1.5 font-mono text-xs tracking-widest text-muted-foreground uppercase"
 			>
 				<MapPin class="size-3.5 text-primary" />
 				{profile.location}
 			</p>
 
-			<div class="mt-7 flex flex-wrap items-center gap-3">
+			<div class="flex flex-wrap items-center gap-3 pt-1">
 				<Button href="mailto:{profile.email}?subject=Let%27s%20talk%20networks" size="lg">
 					Start a conversation
 				</Button>
@@ -104,31 +104,39 @@
 					href="/Damiete-Braide-CV.pdf"
 					target="_blank"
 					rel="noopener"
-					variant="outline" class='hover:bg-primary! hover:text-black'
+					variant="outline"
+					class="hover:bg-primary! hover:text-black"
 					size="lg"
 				>
 					<Download data-icon="inline-start" />
 					Download CV
 				</Button>
-				<Button href={profile.linkedin} target="_blank" rel="noopener" variant="outline" class='hover:bg-primary! hover:text-black' size="lg">
+				<Button
+					href={profile.linkedin}
+					target="_blank"
+					rel="noopener"
+					variant="outline"
+					class="hover:bg-primary! hover:text-black"
+					size="lg"
+				>
 					<LinkedInIcon class="size-4" />
 					LinkedIn
 				</Button>
 			</div>
 		</div>
 
-		<!-- Stats strip -->
+		<!-- Stats strip — tighter rhythm, less vertical air -->
 		<dl
-			class="mt-10 grid grid-cols-2 border-y border-border md:grid-cols-4"
+			class="mt-8 grid grid-cols-2 border-y border-border md:grid-cols-4"
 			aria-label="Career highlights"
 		>
 			{#each stats as stat, i (stat.label)}
 				<div
-					class="border-border px-4 py-5 not-last:border-r max-md:nth-2:border-r-0 max-md:nth-[-n+2]:border-b md:px-6"
+					class="border-border px-4 py-4 not-last:border-r max-md:nth-2:border-r-0 max-md:nth-[-n+2]:border-b md:px-6 md:py-5"
 					{@attach reveal(i * 90)}
 				>
 					<dt
-						class="order-2 mt-1.5 font-mono text-[11px] leading-snug tracking-widest text-muted-foreground uppercase"
+						class="order-2 mt-1 font-mono text-[11px] leading-snug tracking-widest text-muted-foreground uppercase"
 					>
 						{stat.label}
 					</dt>
@@ -141,7 +149,7 @@
 
 		<a
 			href="#experience"
-			class="mt-8 inline-flex items-center gap-2 font-mono text-xs tracking-widest text-muted-foreground uppercase transition-colors hover:text-primary"
+			class="mt-6 inline-flex items-center gap-2 font-mono text-xs tracking-widest text-muted-foreground uppercase transition-colors hover:text-primary"
 		>
 			Scroll — trace the signal
 			<ArrowDown class="size-3.5 animate-bounce" />

@@ -7,7 +7,7 @@
 
 	let playgroundAnnotationProps: AnnotationProps = {
 		toolbarPosition: 'bottom-left',
-		outputMode: 'compact',
+		outputMode: 'detailed',
 		pauseAnimations: true,
 		clearOnCopy: true,
 		includeComponentContext: false,
